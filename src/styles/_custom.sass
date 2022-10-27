@@ -82,6 +82,7 @@
 
 .BGR12
   background-color: #ECEEC6
+  box-shadow: 2px 2px 10px $black
 
 .BG13
   background-color: #DDD4D1
@@ -153,18 +154,23 @@
   
 .slyder-a__bullets__item
   @media (max-width: $bp-max-xs)
-    margin: 0 7px
+    width: 7px
+    height: 7px
+    margin: 0 5px
   
 .img01
-  position: relative
-  max-width: 150%
   width: 114%
   @media (max-width: $bp-max-sm)
     width: 100%
-  
-.vanishCol
-  @media (max-width: $bp-max-lg)
-    width: 0%
+ 
+.img02
+  width: 135%
+  @media (max-width: $bp-max-md)
+    width: 100%
+
+.img01, .img02
+  position: relative
+  max-width: 150%
 
 .tarjeta-flip.color-acento-contenido .tarjeta-flip__contenido
   height: 350px

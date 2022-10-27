@@ -10,7 +10,7 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-7.order-lg-1.order-2(data-aos="fade-right")
         p La palabra biblioteca en su etimología es de origen griego: #[em biblos] que significa libro y #[em theke] que significa depósito. Indudablemente hay que reconocer que todas las civilizaciones importantes han tenido relación con una biblioteca anexa a sus templos, monasterios y palacios reales.
-        .row.align-items-center.BG01.mb-4
+        .row.align-items-center.BG01
           .col-1.px-0
             img(src="@/assets/curso/temas/img01.png")
           .col-11.p-3
@@ -32,61 +32,55 @@
 
     p En lo relacionado con la historia y evolución de las bibliotecas, conozca algunos elementos de suma importancia, como los que, a continuación, se mencionan:
 
-    .BGM08.p-md-5.p-4
-      .BGIMG02.p-4.mb-5(data-aos="zoom-in")
-        SlyderA(tipo="b")
-          .BGR04.p-4
+    .BGM08.px-md-5.px-4
+      .BGIMG02.p-5.mb-5(data-aos="zoom-in")
+        .BGR04.p-4
+          SlyderA(tipo="b")
             .row.justify-content-center.align-items-center
               .col-lg-6.col-10.mb-lg-0.mb-4
                 img(src="@/assets/curso/tema1/img04.png")
               .col-lg-6
                 .h4 <span style="color:#FD9827">Aportes clave de la cultura sumeria</span>
                 p El gran invento que se le atribuye a los sumerios y que, sin duda, transformó el mundo, es nada menos que la escritura y, un poco después, la literatura. Inicialmente esta tuvo fines administrativos, pero poco después, con ella se llegó a sentar las bases para los cálculos matemáticos de las civilizaciones que siguieron.
-          .BGR04.p-4
             .row.justify-content-center.align-items-center
               .col-lg-6.col-10.mb-lg-0.mb-4
                 img(src="@/assets/curso/tema1/img05.png")
               .col-lg-6
                 .h4 <span style="color:#FD9827">Expansión de la escritura en el mundo antiguo</span>
                 p Su uso se extendió por todo el Cercano Oriente y se empleó para escribir, al menos, una docena de idiomas. muchos de ellos sin ninguna relación. Esto ocurrió en Mesopotamia, Irán, Levante y Anatolia, hasta que la tradición se extinguió allí alrededor de la época de Cristo.
-          .BGR04.p-4
             .row.justify-content-center.align-items-center
               .col-lg-6.col-10.mb-lg-0.mb-4
                 img(src="@/assets/curso/tema1/img06.png")
               .col-lg-6
                 .h4 <span style="color:#FD9827">Escritura cuneiforme</span>
                 p Más de la mitad de la historia humana se registra en escritura cuneiforme (en forma de cuña). Estilo y escritura que se utilizó por primera vez alrededor del 3400 a.C. En la primera etapa se utilizaron imágenes elementales que pronto también se utilizaron para grabar sonidos.
-          .BGR04.p-4
             .row.justify-content-center.align-items-center
               .col-lg-6.col-10.mb-lg-0.mb-4
                 img(src="@/assets/curso/tema1/img07.png")
               .col-lg-6
                 .h4 <span style="color:#FD9827">Biblioteca de Alejandría</span>
-                p En Egipto, la biblioteca más antigua de que hay noticia la creó Osymandias, en la ciudad de Tebas. Pero la más importante fue la Biblioteca de Alejandría, fundada por Ptolomeo Soter a finales del siglo IV a.C. que llegó a reunir la increíble cifra de 700.000 manuscritos o rollos: ninguna biblioteca de la Antigüedad ha podido compararse con ella.
-          .BGR04.p-4
+                p En Egipto, la #[b biblioteca más antigua] de que hay noticia la creó Osymandias, en la ciudad de Tebas. Pero la más importante fue la #[b Biblioteca de Alejandría], fundada por Ptolomeo Soter a finales del siglo IV a.C. que llegó a reunir la increíble cifra de 700.000 manuscritos o rollos: ninguna biblioteca de la Antigüedad ha podido compararse con ella.
             .row.justify-content-center.align-items-center
               .col-lg-6.col-10.mb-lg-0.mb-4
                 img(src="@/assets/curso/tema1/img08.png")
               .col-lg-6
                 .h4 <span style="color:#FD9827">Biblioteca de Pérgamo</span>
-                p La de Biblioteca de Pérgamo, fundada en el siglo II a.C. y cuyos 200.000 volúmenes fueron regalados tras haber saqueado el centro Marco Antonio, a Cleopatra, reina de Egipto, era una biblioteca moderna en su tiempo, pues en Pérgamo se había sustituido el papiro por un material más duradero: el pergamino, llamado así por haber sido utilizado primero en esa ciudad de Asia Menor.
-          .BGR04.p-4
+                p La de #[b Biblioteca de Pérgamo], fundada en el siglo II a.C. y cuyos 200.000 volúmenes fueron regalados tras haber saqueado el centro Marco Antonio, a Cleopatra, reina de Egipto, era una biblioteca moderna en su tiempo, pues en Pérgamo se había sustituido el papiro por un material más duradero: el #[b pergamino], llamado así por haber sido utilizado primero en esa ciudad de Asia Menor.
             .row.justify-content-center.align-items-center
               .col-lg-6.col-10.mb-lg-0.mb-4
                 img(src="@/assets/curso/tema1/img09.png")
               .col-lg-6
                 .h4 <span style="color:#FD9827">Bibliotecas en Grecia y Roma</span>
-                p La biblioteca pública empezó en Atenas hacia 540 a.C. como iniciativa de Pisístrato. Después de esta fecha cada templo tuvo su anexo dedicado a biblioteca sagrada. En tiempos del emperador Adriano en el siglo II, se estableció una gran biblioteca junto al Partenón, en la acrópolis de Atenas. Pero también Roma contó con bibliotecas importantes. 
-          .BGR04.p-4
+                p La #[b biblioteca pública] empezó en Atenas hacia 540 a.C. como iniciativa de Pisístrato. Después de esta fecha cada templo tuvo su anexo dedicado a #[b biblioteca sagrada]. En tiempos del emperador Adriano en el siglo II, se estableció una gran biblioteca junto al Partenón, en la acrópolis de Atenas. Pero también Roma contó con bibliotecas importantes. 
             .row.justify-content-center.align-items-center
               .col-lg-6.col-10.mb-lg-0.mb-4
                 img(src="@/assets/curso/tema1/img10.png")
               .col-lg-6
                 .h4 <span style="color:#FD9827">Bibliotecas en el Renacimiento</span>
-                p El Renacimiento fue momento crucial para el desarrollo de la biblioteca privada y pública. Cosme de Médicis fundó en Florencia en 1444 la primera biblioteca pública moderna poniendo a disposición de los sabios y eruditos del momento una colección de 10.000 volúmenes, entre ellos preciosos manuscritos griegos y latinos en los que el gran mecenas había invertido millones de piezas de oro. 
+                p #[b El Renacimiento] fue momento crucial para el desarrollo de la biblioteca privada y pública. Cosme de Médicis fundó en Florencia en 1444 #[b la primera biblioteca pública moderna] poniendo a disposición de los sabios y eruditos del momento una colección de 10.000 volúmenes, entre ellos preciosos #[b manuscritos griegos y latinos] en los que el gran mecenas había invertido millones de piezas de oro. 
 
       .row.justify-content-center.align-items-center.mb-5
-        .col-lg-3.col-6.px-0(data-aos="fade-right")
+        .col-lg-3.col-6.px-0.mb-lg-0.mb-4(data-aos="fade-right")
           img(src="@/assets/curso/tema1/img11.png")
         .col-lg-9(data-aos="fade-left")
           p Otros aspectos particulares que, sobre la historia de las bibliotecas y centros de información, se deben conocer, son:
@@ -112,7 +106,7 @@
               .col-12
                 p.mb-0 La biblioteca con mayor cantidad de libros y ejemplares, en la época moderna, sigue siendo, tal vez, la Biblioteca Nacional de Moscú.
 
-      .row.justify-content-center.mb-5(data-aos="flip-up")
+      .row.justify-content-center.mb-4(data-aos="flip-up")
         .col-lg-10
           .row.align-items-center.BGR06.mb-4
             .col-1.px-0
@@ -157,7 +151,7 @@
             .col-11.p-3
               p.mb-0 Sin equivocación alguna, todas las bibliotecas comparten los aspectos más cruciales de su misión: la organización de sus colecciones, contenidos y la disposición de la información para la satisfacción de sus usuarios, pero hay ligeros matices que hacen que cada una sea diferente a la otra, en razón a su origen, tipos de materiales y tipos de usuarios.
           p A continuación, se detallan algunas generalidades sobre la clasificación de las bibliotecas, en la actualidad:
-          ul.lista-ul--color.ms-4
+          ul.lista-ul--color
             li
               <i class="fas fa-dot-circle" style="color:#785549;"></i>
               | No existe una única clasificación de las distintas tipologías de bibliotecas. 
@@ -180,23 +174,21 @@
         .col-lg-4.col-10.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
           img(src="@/assets/curso/tema1/img16.png")
 
-    .row.justify-content-center.mb-4
-      .col-lg-10.mb-4(data-aos="flip-up")
-        .row.align-items-center.BGR06
-          .col-lg-1.col-2.px-0
-            img(src="@/assets/curso/temas/img04.svg")
-          .col.p-4
-            .row.justify-content-between.align-items-center
-              .col.mb-3.mb-sm-0
-                .h4 <span style="color:#FD9827;">Las distintas clasificaciones y tipologías de bibliotecas según UNESCO, INE, IFLA y ALA</span>
-                p.text-white.mb-0 Explore el contenido del siguiente enlace y conozca, en detalle, las tipologías propuestas por las entidades internacionales, para las bibliotecas:
-              .col-sm-auto
-                a.boton.color-acento-botones(href="https://www.comunidadbaratz.com/blog/las-distintas-clasificaciones-y-tipologias-de-bibliotecas-segun-unesco-ine-ifla-y-ala/" target="_blank")
-                  span Ir al sitio
-                  i.fas.fa-link
+    .row.align-items-center.BGR06.mb-4(data-aos="flip-up")
+      .col-lg-1.col-2.px-0
+        img(src="@/assets/curso/temas/img04.svg")
+      .col.p-4
+        .row.justify-content-between.align-items-center
+          .col.mb-3.mb-sm-0
+            .h4 <span style="color:#FD9827;">Las distintas clasificaciones y tipologías de bibliotecas según UNESCO, INE, IFLA y ALA</span>
+            p.text-white.mb-0 Explore el contenido del siguiente enlace y conozca, en detalle, las tipologías propuestas por las entidades internacionales, para las bibliotecas:
+          .col-sm-auto
+            a.boton.color-acento-botones(href="https://www.comunidadbaratz.com/blog/las-distintas-clasificaciones-y-tipologias-de-bibliotecas-segun-unesco-ine-ifla-y-ala/" target="_blank")
+              span Ir al sitio
+              i.fas.fa-link
 
     separador
-    .BGM08.p-md-5.p-4
+    .BGM08.px-md-5.px-4
       #t_1_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
         h2 1.2 Recursos bibliográficos
       
@@ -232,63 +224,63 @@
       p Entre los tipos de recursos bibliográficos, se pueden destacar algunos fundamentales y básicos, como:
       
       .row.mb-4(data-aos="fade-right")
-        .col-1.vanishCol.px-0
+        .col-xl-1.d-none.d-xl-flex.px-0
         .col-xl-2.col-lg-3.col-md-4.col-6.mb-xl-0.mb-4
           .tarjeta--boton.color-primario.p-4
             .row.justify-content-center.mb-3
               .col-7
                 img(src='@/assets/curso/tema1/img21.svg')
-            p.text-center Colecciones bibliográficas.
+            .h5.text-center Colecciones bibliográficas.
         .col-xl-2.col-lg-3.col-md-4.col-6.mb-xl-0.mb-4 
           .tarjeta--boton.color-primario.p-4
             .row.justify-content-center.mb-3
               .col-7
                 img(src='@/assets/curso/tema1/img22.svg')
-            p.text-center Portal de revistas.
+            .h5.text-center Portal de revistas.
         .col-xl-2.col-lg-3.col-md-4.col-6.mb-xl-0.mb-4 
           .tarjeta--boton.color-primario.p-4
             .row.justify-content-center.mb-3
               .col-7
                 img(src='@/assets/curso/tema1/img23.svg')
-            p.text-center Tesis y trabajos de grado.
+            .h5.text-center Tesis y trabajos de grado.
         .col-xl-2.col-lg-3.col-md-4.col-6.mb-xl-0.mb-4 
           .tarjeta--boton.color-primario.p-4
             .row.justify-content-center.mb-3
               .col-7
                 img(src='@/assets/curso/tema1/img24.svg')
-            p.text-center Investigaciones y transferencia.
+            .h5.text-center Investigaciones y transferencia.
         .col-xl-2.col-lg-3.col-md-4.col-6.mb-4 
           .tarjeta--boton.color-primario.p-4
             .row.justify-content-center.mb-3
               .col-7
                 img(src='@/assets/curso/tema1/img25.svg')
-            p.text-center Repositorios institucionales.
-        .col-1.vanishCol.px-0
-        .col-1.vanishCol.px-0
+            .h5.text-center Repositorios institucionales.
+        .col-xl-1.d-none.d-xl-flex.px-0
+        .col-xl-1.d-none.d-xl-flex.px-0
         .col-xl-2.col-lg-3.col-md-4.col-6.mb-xl-0.mb-4
           .tarjeta--boton.color-primario.p-4
             .row.justify-content-center.mb-3
               .col-7
                 img(src='@/assets/curso/tema1/img26.svg')
-            p.text-center Recursos educativos digitales.
+            .h5.text-center Recursos educativos digitales.
         .col-xl-2.col-lg-3.col-md-4.col-6.mb-xl-0.mb-4
           .tarjeta--boton.color-primario.p-4
             .row.justify-content-center.mb-3
               .col-7
                 img(src='@/assets/curso/tema1/img27.svg')
-            p.text-center Colecciones de áreas temáticas estratégicas.
+            .h5.text-center Colecciones de áreas temáticas estratégicas.
         .col-xl-2.col-lg-3.col-md-4.col-6.mb-xl-0.mb-4
           .tarjeta--boton.color-primario.p-4
             .row.justify-content-center.mb-3
               .col-7
                 img(src='@/assets/curso/tema1/img28.svg')
-            p.text-center Bases de datos.
+            .h5.text-center Bases de datos.
         .col-xl-2.col-lg-3.col-md-4.col-6.mb-xl-0.mb-4
           .tarjeta--boton.color-primario.p-4
             .row.justify-content-center.mb-3
               .col-7
                 img(src='@/assets/curso/tema1/img29.svg')
-            p.text-center Lista de tesauros .
+            .h5.text-center Lista de tesauros .
 
     separador
     #t_1_3.titulo-segundo.color-acento-contenido(data-aos="fade-right")

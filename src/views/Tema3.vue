@@ -21,7 +21,7 @@
     p.text-center.mb-5 Algunos elementos que son imprescindibles para el registro bibliográfico son:
 
     .row.mb-4(data-aos="fade-right")
-      .col-1.vanishCol.px-0
+      .col-xl-1.d-none.d-xl-flex.px-0
       .col-xl-2.col-lg-3.col-md-4.col-6.mb-xl-0.mb-4
         .tarjeta--boton.color-primario.p-4
           .row.justify-content-center.mb-5
@@ -52,8 +52,8 @@
             .col-7
               img(src='@/assets/curso/tema3/img06.svg')
           .h5.text-center Editorial.
-      .col-1.vanishCol.px-0
-      .col-1.vanishCol.px-0
+      .col-xl-1.d-none.d-xl-flex.px-0
+      .col-xl-1.d-none.d-xl-flex.px-0
       .col-xl-2.col-lg-3.col-md-4.col-6.mb-xl-0.mb-4
         .tarjeta--boton.color-primario.p-4
           .row.justify-content-center.mb-5
@@ -221,7 +221,7 @@
           img(src="@/assets/curso/tema3/img20.png")
         .col-lg-7(data-aos="fade-left")
           p Algunos de los tipos de solución más comunes que se pueden utilizar son:
-          ul.lista-ul--color.ms-4
+          ul.lista-ul--color
             li
               <i class="fas fa-dot-circle" style="color:#785549;"></i>
               | Almacén de datos personales o de proyectos (por ejemplo, utilizando discos USB, discos duros de laptops o unidades en red dentro de la Biblioteca o centro de información).

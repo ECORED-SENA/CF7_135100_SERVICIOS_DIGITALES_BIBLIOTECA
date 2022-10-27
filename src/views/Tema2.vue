@@ -18,7 +18,7 @@
     p En relación con los sistemas de clasificación, se deben tener en cuenta los siguientes aspectos clave.
 
     .row.justify-content-center.mb-5
-      .col-lg-4.col-8.mb-lg-0.mb-4
+      .col-lg-4.col-8.mb-lg-0.mb-4(data-aos="fade-right")
         .tarjeta.tarjeta-flip.color-acento-contenido(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
@@ -26,7 +26,7 @@
             .tarjeta-flip__contenido.p-4.p-xl-5
               .h5.text-white Elección de los mecanismos orientadores
               p.mb-0.text-white Es importante elegir, desde el principio, el más adecuado dependiendo de la colección y de los servicios brindados por la biblioteca y no usar diferentes modos de clasificación que pueden dispersar los fondos y desorientar al usuario en la búsqueda.
-      .col-lg-4.col-8.mb-lg-0.mb-4
+      .col-lg-4.col-8.mb-lg-0.mb-4(data-aos="flip-up")
         .tarjeta.tarjeta-flip.color-acento-contenido(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
@@ -34,7 +34,7 @@
             .tarjeta-flip__contenido.p-4.p-xl-5
               .h5.text-white Los documentos y sus contenidos
               p.mb-0.text-white Los sistemas de clasificación consisten en dotar de contenidos a los documentos, averiguando su contenido principal, su clase y sus aspectos secundarios y traduciendo estos a la notación adecuada según el sistema de clasificación.
-      .col-lg-4.col-8.mb-lg-0.mb-4
+      .col-lg-4.col-8(data-aos="fade-left")
         .tarjeta.tarjeta-flip.color-acento-contenido(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
@@ -45,13 +45,13 @@
 
     p Ahora, se invita a detallar los tipos de sistemas de clasificación más usuales y recomendados. Es conveniente tomar nota de los elementos más importantes en la libreta personal de apuntes.
 
-    TabsB.color-acento-contenido.mb-5
+    TabsB.color-acento-contenido.mb-4
       .p-4.p-md-5(titulo="Clasificación Decimal Universal (CDU)" :icono="require('@/assets/curso/tema2/img05.svg')")
         .row.justify-content-center
-          .col-md-6.mb-4.mb-md-0
+          .col-lg-6.mb-lg-0.mb-4
             h4 Clasificación Decimal Universal (CDU)
             p Es un sistema de clasificación del conocimiento que nace de la necesidad de ordenar y catalogar las obras en las bibliotecas. Es un sistema con notación numérica, ordenado según el principio que rige en los números decimales. Emplea los números arábigos lo que posibilita su uso internacional. Abarca un ámbito temático universal.
-          .col-md-6.mb-4.mb-md-0
+          .col-lg-6.col-10
             .BGR12.p-4
               .h5.mb-1 Ejemplo: 
               .h5 Materias o clases que lo conforman:
@@ -67,10 +67,10 @@
               p.mb-0 9. Geografía. Biografías. Historia.
       .p-4.p-md-5(titulo="Clasificación Decimal Dewey (DDC)" :icono="require('@/assets/curso/tema2/img05.svg')")
         .row.justify-content-center
-          .col-md-6.mb-4.mb-md-0
+          .col-lg-6.mb-lg-0.mb-4
             h4 Clasificación Decimal Dewey (DDC)
             p Sus características básicas de división jerárquica en números decimales en base de 10 con dígitos de tres en tres. Es una clasificación enciclopédica y las materias se ordenan por disciplinas que también tienen jerarquía. 
-          .col-md-6.mb-4.mb-md-0
+          .col-lg-6.col-10
             .BGR12.p-4
               .h5 Ejemplo:
               p.mb-1 000 - Ciencias de la Computación, Información y Obras Generales.
@@ -85,10 +85,10 @@
               p.mb-0 900 - Historia y Geografía
       .p-4.p-md-5(titulo="Clasificación de la Library of Congress (LC)" :icono="require('@/assets/curso/tema2/img05.svg')")
         .row.justify-content-center
-          .col-md-6.mb-4.mb-md-0
+          .col-lg-6.mb-lg-0.mb-4
             h4 Clasificación de la Library of Congress (LC)
             p Es el sistema compuesto de clasificaciones específicas e independientes para cada materia entre las que no existen interconexiones. La notación es alfabética utilizando letras mayúsculas para cada clase. Es un conjunto o serie de clasificaciones amplias y especializadas.
-          .col-md-6.mb-4.mb-md-0
+          .col-lg-6.col-10
             .BGR12.p-4
               .h5.mb-1 Ejemplo:
               .h5 Materias o clases que lo conforman
@@ -121,10 +121,10 @@
                   p.mb-0 Z. Bibliografía y biblioteconomía.
       .p-4.p-md-5(titulo="Clasificación de Bliss (BC)" :icono="require('@/assets/curso/tema2/img05.svg')")
         .row.justify-content-center
-          .col-md-6.mb-4.mb-md-0
+          .col-lg-6.mb-lg-0.mb-4
             h4 Clasificación de Bliss (BC)
             p Este sistema clasificatorio se basa en un esquema de ordenación por disciplinas suficientemente flexibles. El sistema de notación es alfabético con las letras mayúsculas y se utilizan números para notaciones de forma auxiliares. Es utilizado por las bibliotecas universitarias. Es un sistema de clasificación que divide cada disciplina desde cuatro puntos de vista: filosófico, teórico, histórico y práctico.
-          .col-md-6.mb-4.mb-md-0
+          .col-lg-6.col-10
             .BGR12.p-4
               .h5.mb-1 Ejemplo:
               .h5 Generalidades, fenómenos, entidades, comunicación, cibernética, biblioteconomía
@@ -138,10 +138,10 @@
               p.mb-0 Q/S. Estudios sociales, Administración y bienestar social. Ciencias políticas. Derecho.
       .p-4.p-md-5(titulo="Clasificación Colonada de Ranganathan CC" :icono="require('@/assets/curso/tema2/img05.svg')")
         .row.justify-content-center
-          .col-md-6.mb-4.mb-md-0
+          .col-lg-6.mb-lg-0.mb-4
             h4 Clasificación Colonada de Ranganathan CC
             p Es un sistema jerárquico, que aplica el principio de los números decimales para sistematizar las subdivisiones de las clases. Las clases principales están agrupadas en 10 grupos temáticos que intentan abarcar todas las disciplinas científicas. Utiliza un código numérico.
-          .col-md-6.mb-4.mb-md-0
+          .col-lg-6.col-10
             .BGR12.p-4
               .h5.mb-1 Ejemplo:
               .row.justify-content-center
@@ -184,36 +184,36 @@
       h2 2.1 Clasificación bibliográfica
     
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-8.order-lg-1.order-2(data-aos="fade-right")
+      .col-lg-7.order-lg-1.order-2(data-aos="fade-right")
         p El sistema de clasificación bibliográfica tiene por objetivo la organización de la biblioteca, mediante un proceso de agrupación temática, ordenación física y representación gráfica del acervo, haciendo uso de instrumentos y esquemas jerárquicos.
-        .row.align-items-center.BG07.mb-4
+        .row.align-items-center.BG07
           .col-1.px-0.py-2
             img(src="@/assets/curso/temas/img03.png")
           .col-11.p-3
             p.mb-0 El proceso técnico se puede definir como el conjunto de operaciones manuales e intelectuales, efectuadas sobre los fondos de la biblioteca, preparándolos para su difusión y utilización por parte de los usuarios.
-      .col-lg-4.col-10.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
+      .col-lg-5.col-10.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
         img(src="@/assets/curso/tema2/img07.png")
     
-    .row.align-items-center.BGR06.mb-5
+    .row.align-items-center.BGR06.mb-5(data-aos="flip-up")
       .col-lg-1.col-2.px-0
         img(src="@/assets/curso/temas/img04.svg")
-      .col.p-4
+      .col.p-3
         .h4 <span style="color:#FD9827;">¡Atención!</span>
         p.text-white.mb-0 Las tareas que engloba este sistema son el análisis de la colección realizado sobre el conjunto de fondos y el análisis documental realizado sobre cada uno de los documentos, tanto a nivel físico como de contenido. Es en este último donde se engloban las tareas de catalogación y clasificación.
 
-    p La tabla que se muestra enseguida evidencia un ejemplo de proceso técnico de recepción de material bibliográfico, se invita a analizarla con atención.
+    p.mb-5 La tabla que se muestra enseguida evidencia un ejemplo de proceso técnico de recepción de material bibliográfico, se invita a analizarla con atención.
 
     .row.justify-content-center.mb-4
-      .col-lg-10
-        .titulo-sexto.color-acento-contenido.mb-4(data-aos="fade-right")
+      .col-lg-10(data-aos="zoom-in")
+        .titulo-sexto.color-acento-contenido.mb-4
           h5 Tabla 1
           span Recepción de material bibliográfico en la sección de procesos técnicos
         table
           thead
             tr
-              td(style="background-color: #785549; width: 25%;").text-center.text-white N.º de actividad
-              td(style="background-color: #785549; width: 50%;").text-center.text-white Actividades
-              td(style="background-color: #785549; width: 25%;").text-center.text-white Responsables
+              th(style="background-color: #785549; width: 25%;").text-center.text-white N.º de actividad
+              th(style="background-color: #785549; width: 50%;").text-center.text-white Actividades
+              th(style="background-color: #785549; width: 25%;").text-center.text-white Responsables
           tbody
             tr
               td(style="background-color: #EBD0BC;").text-center 1
@@ -246,7 +246,7 @@
       
       p La descripción del material bibliográfico se realiza según las normas técnicas establecidas para este fin y su propósito es su sistematización con miras a la presentación a través de un catálogo.
 
-      .row.justify-content-center.align-items-center.mb-5
+      .row.justify-content-center.align-items-center.mb-4
         .col-lg-7.order-lg-1.order-2(data-aos="fade-right")
           .row.align-items-center.BG09.mb-4
             .col-1.px-0
@@ -294,7 +294,7 @@
                   p.mb-1 Notas especiales y otras importantes para la descripción de la obra.
           .row.align-items-center.BGR06
             .col-lg-1.col-2.px-0
-              img(src="@/assets/curso/temas/img04.svg")
+              img.img02(src="@/assets/curso/temas/img04.svg")
             .col.p-4
               .h4 <span style="color:#FD9827;">¡Importante!</span>
               p.text-white.mb-0 La catalogación se realiza de acuerdo con las normas vigentes y ampliamente utilizadas por los bibliotecarios.   
@@ -319,74 +319,74 @@
       .titulo-sexto.color-acento-contenido.mb-4(data-aos="fade-right")
         h5 Tabla 2
         span Reglas de catalogación
-    .tabla-b.color-primario.mb-5
+    .tabla-b.color-primario.mb-4(data-aos="zoom-in")
       table
         tbody
           tr
-            td(style="background-color: #FFF0DE; width: 35%; border-top: 8px solid #785549;").text-center ISBD (CR)
-            td(style="background-color: #FFF0DE; width: 65%; border-top: 8px solid #785549;") Descripción Bibliográfica Internacional Normalizada para Publicaciones Seriadas y otros Recursos Continuados.
+            td(style="background-color: #FFF0DE; width: 35%; border-top: 8px solid #785549; border-left: 2px solid #785549;").text-center ISBD (CR)
+            td(style="background-color: #FFF0DE; width: 65%; border-top: 8px solid #785549; border-left: 2px solid #785549; border-right: 2px solid #785549;") Descripción Bibliográfica Internacional Normalizada para Publicaciones Seriadas y otros Recursos Continuados.
           tr
-            td.text-center AACR2
-            td Reglas de Catalogación - Rda: Forma de Puntos de Acceso (2010).
+            td(style="border-left: 2px solid #785549;").text-center AACR2
+            td(style="border-left: 2px solid #785549; border-right: 2px solid #785549;") Reglas de Catalogación - Rda: Forma de Puntos de Acceso (2010).
           tr
-            td(style="background-color: #FFF0DE;").text-center Reglas de catalogación
-            td(style="background-color: #FFF0DE;") Permite el intercambio de información bibliográfica.
+            td(style="background-color: #FFF0DE; border-left: 2px solid #785549;").text-center Reglas de catalogación
+            td(style="background-color: #FFF0DE; border-left: 2px solid #785549; border-right: 2px solid #785549;") Permite el intercambio de información bibliográfica.
           tr
-            td.text-center Reglas de catalogación
-            td Ordenación de las entradas de los catálogos automatizados.
+            td(style="border-left: 2px solid #785549;").text-center Reglas de catalogación
+            td(style="border-left: 2px solid #785549; border-right: 2px solid #785549;") Ordenación de las entradas de los catálogos automatizados.
 
           tr
-            td(style="background-color: #FFF0DE;").text-center Reglas de Catalogación Españolas y las RDA
-            td(style="background-color: #FFF0DE;") Se refiere a la elección y a la forma de puntos de acceso.
+            td(style="background-color: #FFF0DE; border-left: 2px solid #785549;").text-center Reglas de Catalogación Españolas y las RDA
+            td(style="background-color: #FFF0DE; border-left: 2px solid #785549; border-right: 2px solid #785549;") Se refiere a la elección y a la forma de puntos de acceso.
           tr
-            td.text-center NC-ISO 2108: 1999
-            td Numeración Internacional Normalizada de Libros (ISBN).
+            td(style="border-left: 2px solid #785549;").text-center NC-ISO 2108: 1999
+            td(style="border-left: 2px solid #785549; border-right: 2px solid #785549;") Numeración Internacional Normalizada de Libros (ISBN).
           tr
-            td(style="background-color: #FFF0DE;").text-center NC-93 - 2000
-            td(style="background-color: #FFF0DE;") Norma de Descripción Bibliográfica de Música.
+            td(style="background-color: #FFF0DE; border-left: 2px solid #785549;").text-center NC-93 - 2000
+            td(style="background-color: #FFF0DE; border-left: 2px solid #785549; border-right: 2px solid #785549;") Norma de Descripción Bibliográfica de Música.
           tr
-            td.text-center NC-94 - 2000
-            td Norma de Descripción Bibliográfica de Manuscritos.
+            td(style="border-left: 2px solid #785549;").text-center NC-94 - 2000
+            td(style="border-left: 2px solid #785549; border-right: 2px solid #785549;") Norma de Descripción Bibliográfica de Manuscritos.
           tr
-            td(style="background-color: #FFF0DE;").text-center NC-ISO 3297: 2000
-            td(style="background-color: #FFF0DE;") Numeración Internacional Normalizada de Publicaciones Seriadas (ISSN).
+            td(style="background-color: #FFF0DE; border-left: 2px solid #785549;").text-center NC-ISO 3297: 2000
+            td(style="background-color: #FFF0DE; border-left: 2px solid #785549; border-right: 2px solid #785549;") Numeración Internacional Normalizada de Publicaciones Seriadas (ISSN).
           tr
-            td.text-center NC-ISO 5963: 2000
-            td Métodos para el análisis de documentos, determinación de su contenido y selección de los términos de indización.
+            td(style="border-left: 2px solid #785549;").text-center NC-ISO 5963: 2000
+            td(style="border-left: 2px solid #785549; border-right: 2px solid #785549;") Métodos para el análisis de documentos, determinación de su contenido y selección de los términos de indización.
           tr
-            td(style="background-color: #FFF0DE;").text-center NC-ISO 214 - 2000
-            td(style="background-color: #FFF0DE;") Resúmenes para publicaciones y documentación.
+            td(style="background-color: #FFF0DE; border-left: 2px solid #785549;").text-center NC-ISO 214 - 2000
+            td(style="background-color: #FFF0DE; border-left: 2px solid #785549; border-right: 2px solid #785549;") Resúmenes para publicaciones y documentación.
           tr
-            td.text-center NC-121 - 2001
-            td Encabezamientos, autores individuales y corporativos.
+            td(style="border-left: 2px solid #785549;").text-center NC-121 - 2001
+            td(style="border-left: 2px solid #785549; border-right: 2px solid #785549;") Encabezamientos, autores individuales y corporativos.
           tr
-            td(style="background-color: #FFF0DE;").text-center NC- ISO 690-2 - 2001
-            td(style="background-color: #FFF0DE;") Información y documentación. Referencias bibliográficas. Documentos electrónicos y sus partes.
+            td(style="background-color: #FFF0DE; border-left: 2px solid #785549;").text-center NC- ISO 690-2 - 2001
+            td(style="background-color: #FFF0DE; border-left: 2px solid #785549; border-right: 2px solid #785549;") Información y documentación. Referencias bibliográficas. Documentos electrónicos y sus partes.
           tr
-            td.text-center NC-ISO 832: 2000
-            td Descripción y referencias bibliográficas. Abreviación de las palabras tipo.
+            td(style="border-left: 2px solid #785549;").text-center NC-ISO 832: 2000
+            td(style="border-left: 2px solid #785549; border-right: 2px solid #785549;") Descripción y referencias bibliográficas. Abreviación de las palabras tipo.
           tr
-            td(style="background-color: #FFF0DE;").text-center NC-154: 2002
-            td(style="background-color: #FFF0DE;") Norma de descripción bibliográfica de libros y folletos.
+            td(style="background-color: #FFF0DE; border-left: 2px solid #785549;").text-center NC-154: 2002
+            td(style="background-color: #FFF0DE; border-left: 2px solid #785549; border-right: 2px solid #785549;") Norma de descripción bibliográfica de libros y folletos.
           tr
-            td.text-center NC-39-09
-            td Descripción bibliográfica de publicaciones seriadas.
+            td(style="border-left: 2px solid #785549;").text-center NC-39-09
+            td(style="border-left: 2px solid #785549; border-right: 2px solid #785549;") Descripción bibliográfica de publicaciones seriadas.
           tr
-            td(style="background-color: #FFF0DE;").text-center NORMA ISO 11620
-            td(style="background-color: #FFF0DE;") Información y documentación. Indicadores del trabajo bibliotecario.
+            td(style="background-color: #FFF0DE; border-left: 2px solid #785549; border-bottom: 2px solid #785549;").text-center NORMA ISO 11620
+            td(style="background-color: #FFF0DE; border-left: 2px solid #785549; border-right: 2px solid #785549; border-bottom: 2px solid #785549;") Información y documentación. Indicadores del trabajo bibliotecario.
 
     separador
     #t_2_4.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 2.4 Clases de catálogos
     
     .row.justify-content-center.align-items-center.mb-4
-      .col-lg-1.col-2
+      .col-lg-1.col-2(data-aos="fade-right")
         img(src="@/assets/curso/temas/img03.png")
       .col
         p Existen diferentes tipologías de catálogos de acuerdo a los criterios de cada biblioteca. Se pueden encontrar en forma de libros, (manuscritos), en forma de fichas, en listas, de acceso directo on line (OPAC, Online Public Access Catalog), y en disco óptico (CD, DVD).
         p.mb-0 A continuación, se presentan algunos de los tipos de catálogos más usuales en el contexto de las bibliotecas:
     
-    .BGIMG03.px-md-5.px-4.py-2.mb-4
+    .BGIMG03.px-md-5.px-4.py-2.mb-4(data-aos="zoom-in")
       ImagenInfograficaB.color-acento-botones
         template(v-slot:imagen)
           figure
@@ -421,7 +421,7 @@
     .titulo-sexto.color-acento-contenido.mb-4(data-aos="fade-right")
         h5 Tabla 3
         span Tipos de catálogos
-    .tabla-b.color-primario.mb-5
+    .tabla-b.color-primario.mb-5(data-aos="zoom-in")
       table
         tbody
           tr
