@@ -94,7 +94,8 @@
           .col-11.p-3
             p.mb-0 Esto permite avances en el campo de un conocimiento determinado; se recurre a las distintas bibliotecas y/o centros de información que se han acondicionado para prestar o suministrar información a todo tipo de usuarios. 
     
-    p En el siguiente esquema se detallan los tipos de fuentes de información. Se invita asimilar cada uno de ellos y a llevar registro en la libreta personal de apuntes.
+    p.mb-5 En el siguiente esquema se detallan los tipos de fuentes de información. Se invita asimilar cada uno de ellos y a llevar registro en la libreta personal de apuntes.
+    .h4 Tipos de fuentes de información
 
     .BGIMG05.p-4.mb-4
       .row.justify-content-center.align-items-center.mb-5
@@ -132,7 +133,7 @@
                 p.text-center.mb-0 Son listados de referencias bibliográficas elaboradas con rigor, es decir, siguiendo un método establecido. En internet hacen alusión a referencias bibliográficas de monografías y publicaciones periódicas en soporte papel. La mayoría de ellas están especializadas en una determinada materia. Su página principal presenta una serie de temas que enlazan con todas aquellas referencias relacionadas con él o bien aparece el listado de obras sin más.
               .row.justify-content-center
                 .h4.text-center <span style="color:#FD9827;">Catálogos de bibliotecas</span>
-                p.text-center.mb-0 Son los instrumentos para la búsqueda bibliográfica: son las bases de datos bibliografías y los catálogos de bibliotecas. La diferencia entre ambas es que las primeras identifican los documentos y las segundas, además de identificarlos, los localizan.
+                p.text-center.mb-0 Son los instrumentos para la búsqueda bibliográfica: son las bases de datos #[b bibliografías y los catálogos de bibliotecas]. La diferencia entre ambas es que las primeras identifican los documentos y las segundas, además de identificarlos, los localizan.
               .row.justify-content-center
                 .h4.text-center <span style="color:#FD9827;">Diferencias en cuanto a contenido</span>
                 p.text-center.mb-0 En cuanto al contenido, se diferencian en que las bases de datos bibliográficas, en su mayoría, recogen los artículos de las publicaciones periódicas mediante un análisis del contenido, mientras que los catálogos recogen los datos de identificación de monografía y de publicaciones periódicas.
@@ -271,7 +272,7 @@
       
       .row.justify-content-center.align-items-center.mb-5
         .col-lg-7.order-lg-1.order-2(data-aos="fade-right")
-          p El etiquetado, en el diseño de software, hace referencia a los textos que representan funciones en la interfaz de usuario. Derivado del término en inglés labeling, se entiende como toda estructura textual utilizada en una interfaz de usuario, como los títulos, textos de botones, hipervínculos, rótulos (taglines), textos alternativos (alt), etc.
+          p El etiquetado, en el diseño de software, hace referencia a los textos que representan funciones en la interfaz de usuario. Derivado del término en inglés #[em labeling], se entiende como toda estructura textual utilizada en una interfaz de usuario, como los títulos, textos de botones, hipervínculos, rótulos (#[em taglines]), textos alternativos (#[em alt]), etc.
           .row.align-items-center.BG01.mb-4
             .col-1.px-0
               img(src="@/assets/curso/temas/img01.png")

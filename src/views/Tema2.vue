@@ -15,7 +15,8 @@
         .BG10.p-4
           p.mb-0 Basándose en el estudio previo de los documentos que conforman la biblioteca, y una vez marcados unos objetivos y un plan de trabajo, es necesario elegir en torno a qué atributos se van a agrupar los contenidos y cómo se van a organizar. 
 
-    p En relación con los sistemas de clasificación, se deben tener en cuenta los siguientes aspectos clave.
+    p.mb-5 En relación con los sistemas de clasificación, se deben tener en cuenta los siguientes aspectos clave.
+    .h4 Sistemas de clasificación
 
     .row.justify-content-center.mb-5
       .col-lg-4.col-8.mb-lg-0.mb-4(data-aos="fade-right")
@@ -236,7 +237,7 @@
                     | Una vez verificado el material bibliográfico, si cumple con las condiciones se informa al líder del proceso para dar trámite ante la oficina de Almacén.
                   li
                     <i class="fas fa-dot-circle" style="color:#785549;"></i>
-                    | Si el material bibliográfico no corresponde con las condiciones del contrato, se informa al líder del proceso para la toma de decisiones
+                    | Si el material bibliográfico no corresponde con las condiciones del contrato, se informa al líder del proceso para la toma de decisiones.
               td(style="background-color: #EBD0BC;").text-center Preparador técnico del material  bibliográfico
     
     .BGM08.px-md-5.px-4
@@ -403,13 +404,13 @@
             p.mb-0 Permite una búsqueda más concreta y una recuperación más exhaustiva y pertinente de información. Se puede acceder por cualquier punto de acceso, por cualquier zona de registro y, además, por varios puntos de acceso de manera simultánea.
           .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4
             img(src='@/assets/curso/tema2/img12.png')
-        .row.justify-content-center.align-items-center(x="54.3%" y="8.8%" tooltip="Catálogo colectivo" numero="+")
+        .row.justify-content-center.align-items-center(x="83.2%" y="85.5%" tooltip="Catálogo colectivo" numero="+")
           .col-lg-6.order-lg-1.order-2
             h5 Catálogo colectivo
             p.mb-0 Se encarga de agrupar los registros bibliográficos pertenecientes a varias bibliotecas con interés común.
           .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4
             img(src='@/assets/curso/tema2/img13.png')
-        .row.justify-content-center.align-items-center(x="83.2%" y="85.5%" tooltip="Catálogo especial" numero="+")
+        .row.justify-content-center.align-items-center(x="54.3%" y="8.8%" tooltip="Catálogo especial" numero="+")
           .col-lg-6.order-lg-1.order-2
             h5 Catálogo especial
             p.mb-0 Contienen asiento de una sola clase de material o fondos que ya están incluidos en otras categorías especiales.

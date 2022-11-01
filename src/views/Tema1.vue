@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 1
-      h1 Historia y evolución de las bibliotecas y sus servicios.
+      h1 Historia y evolución de las bibliotecas y sus servicios
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-7.order-lg-1.order-2(data-aos="fade-right")
@@ -30,6 +30,7 @@
         .h4.mx-5 Civilizaciones antiguas y sus aportes
         p.mx-5 A los Sumerios, adicional a la primera biblioteca, se les atribuye la invención del arado y la irrigación, los 60 minutos de la hora y los códigos legales, sin olvidar la cerveza, que para ellos era la clave para un "corazón alegre y un hígado satisfecho". Además, muchos les atribuyen la RUEDA que ha sido considerado como el invento más grande de todos los tiempos.
 
+    .h4 Historia y evolución de las bibliotecas
     p En lo relacionado con la historia y evolución de las bibliotecas, conozca algunos elementos de suma importancia, como los que, a continuación, se mencionan:
 
     .BGM08.px-md-5.px-4
@@ -79,6 +80,7 @@
                 .h4 <span style="color:#FD9827">Bibliotecas en el Renacimiento</span>
                 p #[b El Renacimiento] fue momento crucial para el desarrollo de la biblioteca privada y pública. Cosme de Médicis fundó en Florencia en 1444 #[b la primera biblioteca pública moderna] poniendo a disposición de los sabios y eruditos del momento una colección de 10.000 volúmenes, entre ellos preciosos #[b manuscritos griegos y latinos] en los que el gran mecenas había invertido millones de piezas de oro. 
 
+      .h4 Sobre las bibliotecas modernas
       .row.justify-content-center.align-items-center.mb-5
         .col-lg-3.col-6.px-0.mb-lg-0.mb-4(data-aos="fade-right")
           img(src="@/assets/curso/tema1/img11.png")
@@ -221,6 +223,7 @@
           .h4 Disposición de los recursos bibliográficos
           p.mb-0 La estructura definitiva del sistema debe propender por la disposición de todo el recurso bibliográfico posible para satisfacer a todo nivel cada una de las necesidades de sus usuarios. Es un recurso debidamente estructurado y dispuesto para cada fin. 
 
+      .h4 Atributos de las bibliotecas
       p Entre los tipos de recursos bibliográficos, se pueden destacar algunos fundamentales y básicos, como:
       
       .row.mb-4(data-aos="fade-right")
