@@ -19,7 +19,7 @@
     .h4 Sistemas de clasificación
 
     .row.justify-content-center.mb-5
-      .col-lg-4.col-8.mb-lg-0.mb-4(data-aos="fade-right")
+      .col-lg-4.col-md-8.mb-lg-0.mb-4(data-aos="fade-right")
         .tarjeta.tarjeta-flip.color-acento-contenido(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
@@ -27,7 +27,7 @@
             .tarjeta-flip__contenido.p-3.p-xl-5
               .h5.text-white Elección de los mecanismos orientadores
               p.mb-0.text-white Es importante elegir, desde el principio, el más adecuado dependiendo de la colección y de los servicios brindados por la biblioteca y no usar diferentes modos de clasificación que pueden dispersar los fondos y desorientar al usuario en la búsqueda.
-      .col-lg-4.col-8.mb-lg-0.mb-4(data-aos="flip-up")
+      .col-lg-4.col-md-8.mb-lg-0.mb-4(data-aos="flip-up")
         .tarjeta.tarjeta-flip.color-acento-contenido(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
@@ -35,7 +35,7 @@
             .tarjeta-flip__contenido.p-3.p-xl-5
               .h5.text-white Los documentos y sus contenidos
               p.mb-0.text-white Los sistemas de clasificación consisten en dotar de contenidos a los documentos, averiguando su contenido principal, su clase y sus aspectos secundarios y traduciendo estos a la notación adecuada según el sistema de clasificación.
-      .col-lg-4.col-8(data-aos="fade-left")
+      .col-lg-4.col-md-8(data-aos="fade-left")
         .tarjeta.tarjeta-flip.color-acento-contenido(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
