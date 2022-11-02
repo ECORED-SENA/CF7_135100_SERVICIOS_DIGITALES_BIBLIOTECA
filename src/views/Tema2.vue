@@ -24,7 +24,7 @@
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema2/img02.png')})`}")
-            .tarjeta-flip__contenido.p-4.p-xl-5
+            .tarjeta-flip__contenido.p-3.p-xl-5
               .h5.text-white Elección de los mecanismos orientadores
               p.mb-0.text-white Es importante elegir, desde el principio, el más adecuado dependiendo de la colección y de los servicios brindados por la biblioteca y no usar diferentes modos de clasificación que pueden dispersar los fondos y desorientar al usuario en la búsqueda.
       .col-lg-4.col-8.mb-lg-0.mb-4(data-aos="flip-up")
@@ -32,7 +32,7 @@
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema2/img03.png')})`}")
-            .tarjeta-flip__contenido.p-4.p-xl-5
+            .tarjeta-flip__contenido.p-3.p-xl-5
               .h5.text-white Los documentos y sus contenidos
               p.mb-0.text-white Los sistemas de clasificación consisten en dotar de contenidos a los documentos, averiguando su contenido principal, su clase y sus aspectos secundarios y traduciendo estos a la notación adecuada según el sistema de clasificación.
       .col-lg-4.col-8(data-aos="fade-left")
@@ -40,7 +40,7 @@
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema2/img04.png')})`}")
-            .tarjeta-flip__contenido.p-4.p-xl-5
+            .tarjeta-flip__contenido.p-3.p-xl-5
               .h5.text-white Ordenamiento
               p.mb-0.text-white Los sistemas de clasificación implican el ordenamiento de los documentos de acuerdo con el asunto o área temática que cubre. Este proceso requiere de la utilización de sistemas de clasificación creados con el fin de agrupar información de acuerdo con las materias que trata el documento.
 
@@ -173,7 +173,7 @@
                   p.mb-1 R. Filosofía. 
                   p.mb-1 S. Psicología. 
                   p.mb-1 T. Educación. 
-                  p.mb-1 U. Geografí.a 
+                  p.mb-1 U. Geografía 
                   p.mb-1 V. Historia 
                   p.mb-1 W. Ciencia Política. 
                   p.mb-1 X. Economía. 
@@ -209,36 +209,37 @@
         .titulo-sexto.color-acento-contenido.mb-4
           h5 Tabla 1
           span Recepción de material bibliográfico en la sección de procesos técnicos
-        table
-          thead
-            tr
-              th(style="background-color: #785549; width: 25%;").text-center.text-white N.º de actividad
-              th(style="background-color: #785549; width: 50%;").text-center.text-white Actividades
-              th(style="background-color: #785549; width: 25%;").text-center.text-white Responsables
-          tbody
-            tr
-              td(style="background-color: #EBD0BC;").text-center 1
-              td(style="background-color: #EBD0BC;") 
-                ul.lista-ul--color.ms-4
-                  li
-                    <i class="fas fa-dot-circle" style="color:#785549;"></i>
-                    | El proceso de gestión de recursos bibliográficos tiene varias modalidades de recepción del material bibliográfico según sea su procedencia o forma de adquisición, entre estas: 
-                  li
-                    <i class="fas fa-dot-circle" style="color:#785549;"></i>
-                    | Material bibliográfico adquirido mediante compra:
-                  li
-                    <i class="fas fa-dot-circle" style="color:#785549;"></i>
-                    | Una vez se recibe el material según el preparador del material bibliográfico, acomoda el material en la oficina de procesos técnicos, y posteriormente empieza a pasar el material al proceso de catalogación. 
-                  li
-                    <i class="fas fa-dot-circle" style="color:#785549;"></i>
-                    | El encargado de preparar el material bibliográfico, coteja los libros recibidos con el respectivo contrato, verificando el título, autor (es), edición, año, ISBN, editorial y cantidad. 
-                  li
-                    <i class="fas fa-dot-circle" style="color:#785549;"></i>
-                    | Una vez verificado el material bibliográfico, si cumple con las condiciones se informa al líder del proceso para dar trámite ante la oficina de Almacén.
-                  li
-                    <i class="fas fa-dot-circle" style="color:#785549;"></i>
-                    | Si el material bibliográfico no corresponde con las condiciones del contrato, se informa al líder del proceso para la toma de decisiones.
-              td(style="background-color: #EBD0BC;").text-center Preparador técnico del material  bibliográfico
+        .tabla-b.color-acento-contenido.mb-5
+          table
+            thead
+              tr
+                th(style="background-color: #785549; width: 25%;").text-center.text-white N.º de actividad
+                th(style="background-color: #785549; width: 50%;").text-center.text-white Actividades
+                th(style="background-color: #785549; width: 25%;").text-center.text-white Responsables
+            tbody
+              tr
+                td(style="background-color: #EBD0BC;").text-center 1
+                td(style="background-color: #EBD0BC;") 
+                  ul.lista-ul--color.ms-4
+                    li
+                      <i class="fas fa-dot-circle" style="color:#785549;"></i>
+                      | El proceso de gestión de recursos bibliográficos tiene varias modalidades de recepción del material bibliográfico según sea su procedencia o forma de adquisición, entre estas: 
+                    li
+                      <i class="fas fa-dot-circle" style="color:#785549;"></i>
+                      | Material bibliográfico adquirido mediante compra:
+                    li
+                      <i class="fas fa-dot-circle" style="color:#785549;"></i>
+                      | Una vez se recibe el material según el preparador del material bibliográfico, acomoda el material en la oficina de procesos técnicos, y posteriormente empieza a pasar el material al proceso de catalogación. 
+                    li
+                      <i class="fas fa-dot-circle" style="color:#785549;"></i>
+                      | El encargado de preparar el material bibliográfico, coteja los libros recibidos con el respectivo contrato, verificando el título, autor (es), edición, año, ISBN, editorial y cantidad. 
+                    li
+                      <i class="fas fa-dot-circle" style="color:#785549;"></i>
+                      | Una vez verificado el material bibliográfico, si cumple con las condiciones se informa al líder del proceso para dar trámite ante la oficina de Almacén.
+                    li
+                      <i class="fas fa-dot-circle" style="color:#785549;"></i>
+                      | Si el material bibliográfico no corresponde con las condiciones del contrato, se informa al líder del proceso para la toma de decisiones.
+                td(style="background-color: #EBD0BC;").text-center Preparador técnico del material  bibliográfico
     
     .BGM08.px-md-5.px-4
       separador
@@ -263,7 +264,7 @@
                   p.mb-1 Autor.
                 li
                   <i class="fas fa-dot-circle" style="color:#785549;"></i>
-                  p.mb-1 Titulo. 
+                  p.mb-1 Título. 
                 li
                   <i class="fas fa-dot-circle" style="color:#785549;"></i>
                   p.mb-1 Traductores. 
@@ -272,7 +273,7 @@
                   p.mb-1 Edición. 
                 li
                   <i class="fas fa-dot-circle" style="color:#785549;"></i>
-                  p.mb-1 Ligar de publicación. 
+                  p.mb-1 Lugar de publicación. 
                 li
                   <i class="fas fa-dot-circle" style="color:#785549;"></i>
                   p.mb-0 Casa editorial.
@@ -283,7 +284,7 @@
                   p.mb-1 Año de publicación. 
                 li
                   <i class="fas fa-dot-circle" style="color:#785549;"></i>
-                  p.mb-1 Numero de página o volúmenes. 
+                  p.mb-1 Número de página o volúmenes. 
                 li
                   <i class="fas fa-dot-circle" style="color:#785549;"></i>
                   p.mb-1 Ilustraciones. 
@@ -313,7 +314,7 @@
               img(src="@/assets/curso/temas/img06.png")
             .col-11.p-3
               p.mb-0 Estas han sido establecidas para permitir la catalogación consistente de diversos materiales bibliotecarios, por distintas personas de un equipo de catalogación y en cualquier momento.
-          p.mb-0 El siguiente es un listado de las principales normas de catalogación; las mismas permiten orientan los procesos sistemáticos de organización del material bibliográfico. Se invita a llevar notas en las libreta personal de apuntes.
+          p.mb-0 El siguiente es un listado de las principales normas de catalogación; las mismas permiten orientar los procesos sistemáticos de organización del material bibliográfico. Se invita a llevar notas en las libreta personal de apuntes.
         .col-lg-5.order-lg-2.order-1(data-aos="fade-left")
           img(src="@/assets/curso/tema2/img09.svg")
       
@@ -384,7 +385,7 @@
       .col-lg-1.col-2(data-aos="fade-right")
         img(src="@/assets/curso/temas/img03.png")
       .col
-        p Existen diferentes tipologías de catálogos de acuerdo a los criterios de cada biblioteca. Se pueden encontrar en forma de libros, (manuscritos), en forma de fichas, en listas, de acceso directo on line (OPAC, Online Public Access Catalog), y en disco óptico (CD, DVD).
+        p Existen diferentes tipologías de catálogos de acuerdo a los criterios de cada biblioteca. Se pueden encontrar en forma de libros, (manuscritos), en forma de fichas, en listas, de acceso directo en línea (OPAC, Online Public Access Catalog), y en disco óptico (CD, DVD).
         p.mb-0 A continuación, se presentan algunos de los tipos de catálogos más usuales en el contexto de las bibliotecas:
     
     .BGIMG03.px-md-5.px-4.py-2.mb-4(data-aos="zoom-in")
@@ -392,13 +393,13 @@
         template(v-slot:imagen)
           figure
             img(src='@/assets/curso/tema2/img10.svg')
-        .row.justify-content-center.align-items-center(x="8.2%" y="10%" tooltip="Catálogo impreso" numero="+")
+        .row.justify-content-center.align-items-center(x="24.5%" y="45.5%" tooltip="Catálogo impreso" numero="+")
           .col-lg-6.order-lg-1.order-2
             h5 Catálogo impreso
             p.mb-0 Se hace mediante la reproducción de procesos fotográficos de las referencias existentes acerca del material depositado en la biblioteca. Ofrece tal facilidad de consulta que puede ser consultado por numerosos usuarios, en distintos lugares geográficos y simultáneamente.
           .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4
             img(src='@/assets/curso/tema2/img11.png')
-        .row.justify-content-center.align-items-center(x="24.5%" y="45.5%" tooltip="Catálogo automatizado" numero="+")
+        .row.justify-content-center.align-items-center(x="8.2%" y="10%" tooltip="Catálogo automatizado" numero="+")
           .col-lg-6.order-lg-1.order-2
             h5 Catálogo automatizado
             p.mb-0 Permite una búsqueda más concreta y una recuperación más exhaustiva y pertinente de información. Se puede acceder por cualquier punto de acceso, por cualquier zona de registro y, además, por varios puntos de acceso de manera simultánea.
@@ -433,7 +434,7 @@
             td(style="background-color: #ECDACC; border: 2px solid #785549;") Catálogo formal, clasificado alfabéticamente según el título de las entradas.
           tr
             td(style="background-color: #EBD0BC; border: 2px solid #785549;").text-center Catálogo de diccionario
-            td(style="background-color: #ECDACC; border: 2px solid #785549;") Catálogo en el cual todas las entradas (autor, título, tema, serie) en un orden alfabético. esta era la forma primaria de catálogo de fichas en el mundo angloamericano antes de la introducción del catálogo computarizado.
+            td(style="background-color: #ECDACC; border: 2px solid #785549;") Catálogo en el cual todas las entradas (autor, título, tema, serie) están en un orden alfabético. Esta era la forma primaria de catálogo de fichas en el mundo angloamericano antes de la introducción del catálogo computarizado.
           tr
             td(style="background-color: #EBD0BC; border: 2px solid #785549;").text-center Catálogo de la palabra clave
             td(style="background-color: #ECDACC; border: 2px solid #785549;") Clasificado alfabéticamente según un cierto sistema de palabras clave.<br><br>
@@ -443,11 +444,11 @@
                   p.mb-1 Formas mezcladas del catálogo alfabético: a veces, se encuentra un autor/un título mezclado, o un autor/un catálogo del título/de la palabra clave.
           tr
             td(style="background-color: #EBD0BC; border: 2px solid #785549;").text-center Catálogo sistemático
-            td(style="background-color: #ECDACC; border: 2px solid #785549;") Clasificado según una cierta subdivisión sistemática de temas. También llamó un catálogo clasificado.<br><br>
+            td(style="background-color: #ECDACC; border: 2px solid #785549;") Clasificado según una cierta subdivisión sistemática de temas. También llamado un catálogo clasificado.<br><br>
               ul.lista-ul--color
                 li
                   <i class="fas fa-dot-circle" style="color:#785549;"></i>
-                  p.mb-1 Catálogo de la lista de estante: un catálogo formal con las entradas clasificadas en la misma orden que artículos bibliográficos se deja de lado. Este catálogo sirve como el inventario primario para la biblioteca.
+                  p.mb-1 Catálogo de la lista de estante: un catálogo formal con las entradas clasificadas en el mismo orden que los artículos bibliográficos. Este catálogo sirve como el inventario primario para la biblioteca.
           tr
             td(style="background-color: #EBD0BC; border: 2px solid #785549;").text-center Alfabético de materias
             td(style="background-color: #ECDACC; border: 2px solid #785549;") Este agrupa las obras que posee una biblioteca ordenada alfabéticamente por la materia o término que representa el contenido de un documento.

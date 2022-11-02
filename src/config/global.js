@@ -295,7 +295,7 @@ export default {
     },
     {
       referencia:
-        'Moreno, R. (1991). El bibliotecario de referencia y su entorno espacial. Redc.',
+        'Moreno, R. (1991). El bibliotecario de referencia: técnicas y entorno espacial. Redc.',
       link: 'https://redc.revistas.csic.es/index.php/redc/article/view/1215',
     },
     {

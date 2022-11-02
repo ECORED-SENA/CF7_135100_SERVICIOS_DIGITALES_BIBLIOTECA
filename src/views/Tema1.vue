@@ -123,7 +123,7 @@
                       p.text-white.mb-0 <i class="fas fa-circle" style="color:#FD9827 !important; font-size: small"></i> Agorafs.com - Historia de la biblioteca
                     .col-4
                       a.boton.color-acento-botones.mb-0(href="https://agorafs.com/historia-de-la-biblioteca" target="_blank")
-                        span Ver video
+                        span Ir al sitio
                         i.fas.fa-link
                   .row.align-items-center.mb-2
                     .col-8.px-0
@@ -168,7 +168,7 @@
               | Las tipologías de bibliotecas de la Federación Internacional de Asociaciones de Bibliotecarios y Bibliotecas (IFLA) señala que hay hasta trece tipos de bibliotecas.
             li
               <i class="fas fa-dot-circle" style="color:#785549;"></i>
-              | Muchos de las bibliotecas, según la IFLA estarían integradas dentro del epígrafe de bibliotecas especializadas, en las anteriores clasificaciones. 
+              | Muchas de las bibliotecas, según la IFLA estarían integradas dentro del epígrafe de bibliotecas especializadas, en las anteriores clasificaciones. 
             li
               <i class="fas fa-dot-circle" style="color:#785549;"></i>
               | Para la American Library Association (ALA), las principales tipologías de bibliotecas serían cuatro: escolares, públicas, nacionales y especializadas. 
@@ -229,31 +229,31 @@
       .row.mb-4(data-aos="fade-right")
         .col-xl-1.d-none.d-xl-flex.px-0
         .col-xl-2.col-lg-3.col-md-4.col-6.mb-xl-0.mb-4
-          .tarjeta--boton.color-primario.p-4
+          .tarjeta--boton.color-primario.p-3
             .row.justify-content-center.mb-3
               .col-7
                 img(src='@/assets/curso/tema1/img21.svg')
             .h5.text-center Colecciones bibliográficas.
         .col-xl-2.col-lg-3.col-md-4.col-6.mb-xl-0.mb-4 
-          .tarjeta--boton.color-primario.p-4
+          .tarjeta--boton.color-primario.p-3
             .row.justify-content-center.mb-3
               .col-7
                 img(src='@/assets/curso/tema1/img22.svg')
             .h5.text-center Portal de revistas.
         .col-xl-2.col-lg-3.col-md-4.col-6.mb-xl-0.mb-4 
-          .tarjeta--boton.color-primario.p-4
+          .tarjeta--boton.color-primario.p-3
             .row.justify-content-center.mb-3
               .col-7
                 img(src='@/assets/curso/tema1/img23.svg')
             .h5.text-center Tesis y trabajos de grado.
         .col-xl-2.col-lg-3.col-md-4.col-6.mb-xl-0.mb-4 
-          .tarjeta--boton.color-primario.p-4
+          .tarjeta--boton.color-primario.p-3
             .row.justify-content-center.mb-3
               .col-7
                 img(src='@/assets/curso/tema1/img24.svg')
             .h5.text-center Investigaciones y transferencia.
         .col-xl-2.col-lg-3.col-md-4.col-6.mb-4 
-          .tarjeta--boton.color-primario.p-4
+          .tarjeta--boton.color-primario.p-3
             .row.justify-content-center.mb-3
               .col-7
                 img(src='@/assets/curso/tema1/img25.svg')
@@ -261,29 +261,29 @@
         .col-xl-1.d-none.d-xl-flex.px-0
         .col-xl-1.d-none.d-xl-flex.px-0
         .col-xl-2.col-lg-3.col-md-4.col-6.mb-xl-0.mb-4
-          .tarjeta--boton.color-primario.p-4
+          .tarjeta--boton.color-primario.p-3
             .row.justify-content-center.mb-3
               .col-7
                 img(src='@/assets/curso/tema1/img26.svg')
             .h5.text-center Recursos educativos digitales.
         .col-xl-2.col-lg-3.col-md-4.col-6.mb-xl-0.mb-4
-          .tarjeta--boton.color-primario.p-4
+          .tarjeta--boton.color-primario.p-3
             .row.justify-content-center.mb-3
               .col-7
                 img(src='@/assets/curso/tema1/img27.svg')
             .h5.text-center Colecciones de áreas temáticas estratégicas.
         .col-xl-2.col-lg-3.col-md-4.col-6.mb-xl-0.mb-4
-          .tarjeta--boton.color-primario.p-4
+          .tarjeta--boton.color-primario.p-3
             .row.justify-content-center.mb-3
               .col-7
                 img(src='@/assets/curso/tema1/img28.svg')
             .h5.text-center Bases de datos.
         .col-xl-2.col-lg-3.col-md-4.col-6.mb-xl-0.mb-4
-          .tarjeta--boton.color-primario.p-4
+          .tarjeta--boton.color-primario.p-3
             .row.justify-content-center.mb-3
               .col-7
                 img(src='@/assets/curso/tema1/img29.svg')
-            .h5.text-center Lista de tesauros .
+            .h5.text-center Lista de tesauros.
 
     separador
     #t_1_3.titulo-segundo.color-acento-contenido(data-aos="fade-right")

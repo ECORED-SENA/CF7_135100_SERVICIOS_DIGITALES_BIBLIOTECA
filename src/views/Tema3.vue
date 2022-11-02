@@ -252,7 +252,7 @@
           .col-lg-5.col-10.mb-lg-0.mb-4(data-aos="fade-right")
             img(src="@/assets/curso/tema3/img21.png")
           .col-lg-7(data-aos="fade-left")
-            p Las referencias bibliográficas se pueden introducir en un gestor bibliográficos, así:
+            p Las referencias bibliográficas se pueden introducir en un gestor bibliográfico, así:
             ul.lista-ul--color.ms-4
               li
                 <i class="fas fa-dot-circle" style="color:#785549;"></i>
@@ -272,7 +272,7 @@
       
       .row.justify-content-center.align-items-center.mb-5
         .col-lg-7.order-lg-1.order-2(data-aos="fade-right")
-          p El etiquetado, en el diseño de software, hace referencia a los textos que representan funciones en la interfaz de usuario. Derivado del término en inglés #[em labeling], se entiende como toda estructura textual utilizada en una interfaz de usuario, como los títulos, textos de botones, hipervínculos, rótulos (#[em taglines]), textos alternativos (#[em alt]), etc.
+          p El etiquetado, en el diseño de #[em software], hace referencia a los textos que representan funciones en la interfaz de usuario. Derivado del término en inglés #[em labeling], se entiende como toda estructura textual utilizada en una interfaz de usuario, como los títulos, textos de botones, hipervínculos, rótulos (#[em taglines]), textos alternativos (#[em alt]), etc.
           .row.align-items-center.BG01.mb-4
             .col-1.px-0
               img(src="@/assets/curso/temas/img01.png")
@@ -314,7 +314,7 @@
             img(src="@/assets/curso/temas/img07.png")
           .col-11.p-3
             p.mb-0 Esta se basa, principalmente, en la asignación de códigos normalizados a cada obra publicada, a modo de seña de identidad, con el fin de facilitar las operaciones documentales y agilizar los intercambios de información bibliográfica.
-        p.mb-0 La siguiente tabla muestra los principales identificadores bibliográficos. Se invita a leerla a detenidamente y llevar registro de lo más destacado en la libreta personal de apuntes.
+        p.mb-0 La siguiente tabla muestra los principales identificadores bibliográficos. Se invita a leerla detenidamente y llevar registro de lo más destacado en la libreta personal de apuntes.
       .col-lg-5.col-10.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
         img(src="@/assets/curso/tema3/img24.svg")
 
